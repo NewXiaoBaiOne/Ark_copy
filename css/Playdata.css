@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.bg-box{
+    width: 100%;
+    min-height: 1500px;
+    min-width: 1200px;
+    padding-bottom: 50px;
+    background: url(../Playdataimages/bg.jpg) top center no-repeat;
+    position: relative;
+}
+
+
+/*       头部          */
+.top{
+    width: 100%;
+    height: 410px;
+}
+.top-Navg{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #ccc;
+    padding: 0 20px;
+    background: #5f5f5f;
+    border-radius: 17px;
+}
+.link-officer{
+    float: left;
+    height: 34px;
+    background: url(../Playdataimages/icon1.png) no-repeat;
+    padding-left: 30px;
+    color: #ccc;
+    background-position: 0 -102px;
+}
+.top-Navg span{
+    float: left;
+    line-height: 32px;
+    margin-left: 10px;
+}
+.top-Navg a{
+    line-height: 32px;
+}
+.link-forum{
+    float: left;
+    height: 34px;
+    background: url(../Playdataimages/icon1.png) no-repeat;
+    padding-left: 30px;
+    color: #ccc;
+    background-position: 0 -136px;
+}
+.share-box{
+    float: left;
+    position: relative;
+}
+.share-box .wb:hover{
+    opacity: 1;
+}
+.share-box .wb{
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+    background: url(../Playdataimages/icon3.png) no-repeat;
+    background-position: -28px 0;
+    opacity: .8;
+}
+.share-box .kj:hover{
+    opacity: 1;
+}
+.share-box .kj{
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+    background: url(../Playdataimages/icon3.png) no-repeat;
+    background-position: -56px 0;
+    opacity: .8;
+}
+.share-box .qq:hover{
+    opacity: 1;
+}
+.share-box .qq{
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+    background: url(../Playdataimages/icon3.png) no-repeat;
+    background-position: -84px 0;
+    opacity: .8;
+}
+.share-box .bd:hover{
+    opacity: 1;
+}
+.share-box .bd{
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+    background: url(../Playdataimages/icon3.png) no-repeat;
+    background-position: -112px 0;
+    opacity: .8;
+}
+
+
+
+
+/*         内容          */
+.content{
+    width: 1200px;
+    min-height: 1000px;
+    margin: 0 auto;
+}
+.content .content-left{
+    float: left;
+    width: 200px;
+    height: 470px;
+    background: rgba(17,16,16,.8);
+    text-align: center;
+}
+.content-left h3{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 20px;
+}
+.content-left .down-btn:hover{
+    opacity: 1;
+}
+.content-left .down-btn{
+    width: 170px;
+    height: 76px;
+    display: block;
+    background: url(../Playdataimages/downbtn.png) no-repeat;
+    margin-left: 15px;
+    margin-top: 10px;
+    opacity: .8;
+}
+.content-left h4{
+    width: 100%;
+    height: 30px;
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.content-share{
+    position: relative;
+    width: 176px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.content-share .content-share-qq{
+    width: 86px;
+    height: 34px;
+    float: left;
+    font-size: 14px;
+    color: #ccc;
+    border-right: 1px dashed #2b2b2b;
+    border-top: 1px dashed #2b2b2b;
+    background: url(../Playdataimages/sns.png) 0 0 no-repeat;
+    background-position: 0 -70px;
+    opacity: .8;
+}
+.content-share .content-share-wb{
+    width: 86px;
+    height: 34px;
+    float: left;
+    font-size: 14px;
+    color: #ccc;
+    border-right: 1px dashed #2b2b2b;
+    border-top: 1px dashed #2b2b2b;
+    background: url(../Playdataimages/sns.png) 0 0 no-repeat;
+    background-position: 0 -105px;
+    opacity: .8;
+}
+.content-wx{
+    width: 171px;
+    height: 204px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.content-wx img{
+    width: 150px;
+}
+
+
+/*     内容右侧         */
+.content .content-right{
+    float: right;
+    width: 940px;
+    min-height: 1000px;
+    padding: 30px;
+    padding-top: 0;
+    background: rgba(255,255,255,0.9);
+    text-align: center;
+}
+.content-right h2{
+    width: 100%;
+    height: 60px;
+    float: left;
+    text-align: left;
+    margin-top: 30px;
+    line-height: 55px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 20px;
+    color: #76756f;
+}
+.content-right h2 i{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+    background: url(../Playdataimages/icon.png) no-repeat;
+}
+.section1{
+    background-position: 0 0;
+}
+.content-content{
+    width: 920px;
+    padding-left: 40px;
+}
+.content-content a{
+    float: left;
+    margin-top: 25px;
+    width: 100px;
+    height: 14px;
+    padding-left: 17px;
+    background: url(../Playdataimages/link-icon.png) 0 -14px no-repeat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2e2e2e;
+}
+.content-content a:hover{
+    background-position: 0px 0px;
+}
+.section2{
+    background-position: 0 -30px;
+}
+.section3{
+    background-position: 0 -60px;
+}
+
+
+/*         尾部        */
+#bottom{
+    min-width: 1180px;
+    height: 150px;
+    background: #f0f0f0;
+}
+.bottom-content{
+    width: 1180px;
+    padding-top: 45px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 2;
+    color: #2a292c;
+}
