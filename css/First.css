@@ -527,7 +527,7 @@ a{
     padding-top: 140px;
     position: relative;
 }
-.next-recommend{
+#next-recommend{
     width: 102px;
     height: 30px;
     display: block;
@@ -799,7 +799,7 @@ a{
     font-size: 30px;
     margin: 8px 0 0 20px;
 }
-.news-content a{
+#news-content a{
     width: 185px;
     height: 225px;
     background: url(../images-content1/b2.png) center repeat;
@@ -808,28 +808,28 @@ a{
     margin-left: 15px;
     margin-top: 15px;
 }
-.news-content a:first-of-type{
+#news-content a:first-of-type{
     margin-top: 0px;
 }
-.news-content a:nth-child(2){
+#news-content a:nth-child(2){
     margin-left: 0px;
 }
-.news-content a h3{
+#news-content a h3{
     font-size: 14px;
     line-height: 20px;
     color: white;
     margin-top: 50px;
 }
-.news-content a h3:hover{
+#news-content a h3:hover{
     color:  #01fff8;
 }
-.news-content a .time{
+#news-content a .time{
     font-size: 12px;
     position: absolute;
     top: 160px;
     color: #107174;
 }
-.news-content a .spt{
+#news-content a .spt{
     width: 50px;
     height: 20px;
     font-size: 12px;
